@@ -1,5 +1,5 @@
 # By sending single image objects. You can get in return a .jpeg format numpy array which can be used for training the dataset.
-
+# An opencv compatible numpy array is returned.
 import glob
 from PIL import Image
 from io import BytesIO
@@ -22,9 +22,15 @@ def image_converter(im):
     # To Convert RGB to BGR 
     open_cv_image = open_cv_image[:, :, ::-1].copy() 
 
+    
+    # For testing that it correctly outputs in jpeg format.
+    
     # cv2.imwrite('helo.jpeg',open_cv_image)
     # cv2.waitKey()
+   
 
+    # For testing that it correctly outputs in jpeg format.
+    
     # cv2.imshow("image",open_cv_image)
     # cv2.waitKey()
     

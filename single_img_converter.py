@@ -1,4 +1,4 @@
-# Using PILLOW
+# By sending single image objects. You can get in return a .jpeg format numpy array which can be used for training the dataset.
 
 import glob
 from PIL import Image

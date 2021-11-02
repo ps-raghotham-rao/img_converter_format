@@ -1,4 +1,5 @@
-# By giving the location of the directory. It recursively goes through all the images and without saving converts it into jpeg format from tif format.
+# By giving the location of the directory. It recursively goes through all the images and without saving converts it into jpeg format from tif format. 
+# An OpenCV compatible numpy array is returned.
 
 import glob
 from typing import Iterator

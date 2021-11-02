@@ -30,9 +30,12 @@ def image_converter(img_dir):
         # To Convert RGB to BGR 
         open_cv_image = open_cv_image[:, :, ::-1].copy() 
 
+        # For testing that it correctly outputs in jpeg format.
         # cv2.imwrite('helo.jpeg',open_cv_image)
         # cv2.waitKey()
 
+        
+        # For testing that it correctly outputs in jpeg format.
         # cv2.imshow("image",open_cv_image)
         # cv2.waitKey()
         
